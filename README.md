@@ -1,6 +1,6 @@
 # Genome exploration
 
-- [Enriched Motif Search (C. elegans)](https://colab.research.google.com/github/iron-lion/colab-yPark/blob/main/notebooks/promoter_k_mer.ipynb)
+- [Enriched Motif Search (C. elegans, Mouse, Killifish)](https://colab.research.google.com/github/iron-lion/colab-yPark/blob/main/notebooks/promoter_k_mer.ipynb)
 Motifs are identified, counted, and listed based on their frequency in the promoters of the input gene set.
 
 # Fluorescent microscopy image process
