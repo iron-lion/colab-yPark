@@ -1,7 +1,9 @@
 # Genome exploration
 
 - [Enriched Motif Search (C. elegans, Mouse, Killifish)](https://colab.research.google.com/github/iron-lion/colab-yPark/blob/main/notebooks/promoter_k_mer.ipynb)
-Motifs are identified, counted, and listed based on their frequency in the promoters of the input gene set.
+This program identifies the most common DNA sequence motifs within the promoter regions of a given list of genes. It extracts upstream promoter sequences (typically a fixed length upstream of the transcription start site) from a reference genome and search motifs (with [JASPAR](https://jaspar2022.genereg.net/) database)
+Each motif is then counted based on the number of occurrences across all input gene regions. Finally, the motifs are ranked and listed according to their frequency, reflecting how often each motif appears within the gene set.
+(Similar to [FIMO](https://meme-suite.org/meme/tools/fimo), but easy to use)
 
 # Fluorescent microscopy image process
 
